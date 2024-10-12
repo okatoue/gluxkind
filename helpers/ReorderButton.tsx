@@ -6,10 +6,8 @@ const shuffleArray = (array, currentIndex = array.length - 1) => {
   
     const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
   
-    // Swap elements
     [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
   
-    // Recursively shuffle the rest of the array
     return shuffleArray(array, currentIndex - 1);
   };
 
