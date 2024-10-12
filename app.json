@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Gluxkind",
+    "slug": "gluxkind",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.okatoueorg.gluxkind"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.okatoueorg.gluxkind"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f107e17d-64b8-4c9a-b1bb-fd66647ce61e"
+      }
+    },
+    "owner": "okatoue-org",
+    "updates": {
+      "url": "https://u.expo.dev/f107e17d-64b8-4c9a-b1bb-fd66647ce61e"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
